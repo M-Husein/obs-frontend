@@ -1,3 +1,5 @@
+/// <reference types="vitest" />
+
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 import { ViteMinifyPlugin } from 'vite-plugin-minify';
@@ -31,5 +33,11 @@ export default defineConfig({
         comments: false, // Removes comments
       },
     },
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/setupTests.ts',
+    css: true,
   },
 })

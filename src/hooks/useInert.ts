@@ -8,13 +8,13 @@ export const useInert = (isInert: boolean): void => {
   useEffect(() => {
     const root = document.getElementById('root') as HTMLDivElement;
     if (isInert) {
-      root.setAttribute('inert', '');
+      root?.setAttribute('inert', '');
     } else {
-      root.removeAttribute('inert');
+      root?.removeAttribute('inert');
     }
 
     return () => {
-      root.removeAttribute('inert');
+      root?.removeAttribute('inert');
     }
   }, [isInert]);
 }
