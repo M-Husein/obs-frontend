@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Muhamad Husein",
+    "email": "m.husein27@gmail.com",
+    "phone": "081219178547",
+    "company": "Programmeria"
+  },
+  {
+    "id": "2",
+    "name": "Leanne Graham",
+    "email": "Sincere@april.biz",
+    "phone": "1-770-736-8031",
+    "company": "Romaguera-Crona"
+  },
+  {
+    "id": "3",
+    "name": "Ervin Howell",
+    "email": "Shanna@melissa.tv",
+    "phone": "010-692-6593",
+    "company": "Deckow-Crist"
+  }
+]
