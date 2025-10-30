@@ -3,7 +3,7 @@
 This is a scaffold for the OBS Frontend assignment (Vite + React + TypeScript).
 
 ## Features
-- MUI UI
+- Material UI
 - React Query + ky for fetching `public/users.json`
 - React Context for users + theme
 - React Hook Form + Zod for validation
@@ -29,4 +29,9 @@ This is a scaffold for the OBS Frontend assignment (Vite + React + TypeScript).
 4. Build:
    ```bash
    npm run build
+   ```
+
+5. Start preview server:
+   ```bash
+   npm run preview
    ```

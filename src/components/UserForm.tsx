@@ -23,7 +23,6 @@ export const UserForm = ({
   const { 
     control, 
     handleSubmit, 
-    // register, 
     formState: { errors } 
   } = useForm<User>({
     resolver: zodResolver(UserSchema),

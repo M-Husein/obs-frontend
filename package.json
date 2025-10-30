@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "private": true,
+  "author": {
+    "name": "Muhamad Husein",
+    "email": "m.husein27@gmail.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
